@@ -1,1 +1,7 @@
-token.url=abc
+token:
+  url: https://login.microsoftonline.com/{{tenantToReplace}}/oauth2/token
+  tenant: cf6a126c-425b-4fc8-812b-4ef016f6a56e
+  client-id: 7f03b0fb-a59e-4e97-8f43-a4fc19d53126
+  client-secret: TgJ8Q~c9bNaUw33.f6~nrw7g1nC5xZhdbJ73far-
+  scope: https://graph.microsoft.com/.default
+  authority: https://login.microsoftonline.com/cf6a126c-425b-4fc8-812b-4ef016f6a56e/
